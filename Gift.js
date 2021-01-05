@@ -6,6 +6,6 @@ class Gift extends BaseRect {
         density : 1
         }
         super(x,y,width,height)
-        this.image=loadImage("PHOTOS/gift2.png")
+        this.image=loadImage("gift2.png")
     }
 }
