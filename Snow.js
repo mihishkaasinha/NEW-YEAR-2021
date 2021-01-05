@@ -9,7 +9,7 @@ class Snow {
         this.body = Bodies.rectangle(x, y, width, height, options);
         this.width = width;
         this.height = height;
-        this.image=loadImage("PHOTOS/snow.png")
+        this.image=loadImage("snow.png")
         World.add(world, this.body);
     }
 
