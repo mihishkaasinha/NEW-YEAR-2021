@@ -6,7 +6,7 @@ class Blueball extends BaseRect {
         density : 1
         }
         super(x,y,width,height)
-        this.image=loadImage("PHOTOS/ball01.png")
+        this.image=loadImage("ball01.png")
     }
     display(){
         super.display();
