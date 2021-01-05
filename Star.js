@@ -6,7 +6,7 @@ class Star extends BaseRect {
         density : 1
         }
         super(x,y,width,height)
-        this.image=loadImage("PHOTOS/star.png")
+        this.image=loadImage("star.png")
     }
     display(){
     super.display();
