@@ -18,8 +18,8 @@ var mes1="You have 5 lifes.";
 
 function preload()
 {
-	bg = loadImage("PHOTOS/screen.png")
-	man = loadImage("PHOTOS/man.png")
+	bg = loadImage("screen.png")
+	man = loadImage("man.png")
 }
 
 function setup() {
