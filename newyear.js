@@ -4,6 +4,6 @@ class newyear extends BaseRect {
            isStatic:true
         }
         super(x,y,width,height)
-        this.image=loadImage("PHOTOS/year.png")
+        this.image=loadImage("year.png")
     }
 }
