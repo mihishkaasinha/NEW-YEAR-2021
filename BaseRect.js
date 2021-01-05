@@ -6,7 +6,7 @@ var options={
     friction:1
 }
 this.body=Bodies.rectangle(x,y,width,height,options)
-this.image=loadImage("PHOTOS/base.png")
+this.image=loadImage("base.png")
 this.width=width
 this.height=height
 World.add(world,this.body)
