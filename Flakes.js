@@ -4,7 +4,7 @@ var options={
     isStatic:false
 }
 this.body=Bodies.rectangle(x,y,width,height,options)
-this.image=loadImage("PHOTOS/snowflakes.png")
+this.image=loadImage("snowflakes.png")
 this.width=width
 this.height=height
 World.add(world,this.body)
