@@ -6,7 +6,7 @@ class Ball extends BaseRect {
         density : 1
         }
         super(x,y,width,height)
-        this.image=loadImage("PHOTOS/ball1.png")
+        this.image=loadImage("ball1.png")
     }
     display(){
         super.display();
